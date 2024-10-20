@@ -54,6 +54,10 @@ aiming to reduce waste and support communities.
 - **courier-signup.html**: Page for couriers to sign up for the platform.
 - **contact.html**: Contact page for the platform.
 
+## Glitch.com hosted site
+
+https://rambunctious-fuschia-flyingfish.glitch.me
+
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/df9f7479-1860-474f-a903-429d8520d85c)
