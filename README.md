@@ -1,77 +1,48 @@
+# Hello website!
 
-# GiveCycle
+This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄
 
-GiveCycle is an innovative platform dedicated to transforming how we donate and receive items, 
-aiming to reduce waste and support communities.
+_Last updated: 28 Feb 2023_
 
-## Features
+## What's in this project?
 
-- **For Donors**:
-  - Post Items: List items you wish to donate.
-  - Schedule Pickup: Set your preferred pickup times.
-  - Track Delivery: Receive updates on your donation.
-  
-- **For Recipients**:
-  - Browse Listings: Find items you need.
-  - Request Items: Submit a request.
-  - Receive Delivery: Get items delivered to you.
+← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
 
-- **For Couriers**:
-  - Sign Up: Register as a courier.
-  - Accept Deliveries: Choose deliveries.
-  - Earn Money: Get paid per delivery plus tips.
+← `index.html`: This is the main web page for your site. The HTML defines the structure and content of the page using _elements_. You'll see references in the HTML to the JS and CSS files. Try clicking the image in the center of the page!
 
-## How to Run the Project
+← `style.css`: CSS files add styling rules to your content. The CSS applies styles to the elements in your HTML page. The style rules also make the image move when you click it.
 
-1. Clone the repository.
-   ```bash
-   git clone <repository_url>
-   ```
+← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript. The code in the JavaScript file runs when the page loads, and when the visitor clicks the button you can add using the code in the TODO.
 
-2. Navigate to the project directory:
-   ```bash
-   cd givecycle
-   ```
+Open each file and check out the comments (in gray) for more info.
 
-3. Install dependencies if needed:
-   ```bash
-   npm install
-   ```
+## Try this next 🏗️
 
-4. Run the project:
-   ```bash
-   npm start
-   ```
+Take a look in `TODO.md` for next steps you can try out in your new site!
 
-## Project Structure
+___Want a minimal version of this project to build your own website? Check out [Blank Website](https://glitch.com/edit/#!/remix/glitch-blank-website)!___
 
-- **index.html**: The main landing page for the GiveCycle website.
-- **style.css**: Contains all the styling for the website.
-- **how-it-works.html**: Detailed explanation of how the platform works for different users.
-- **about.html**: Provides background information about GiveCycle.
-- **browse.html**: Lists all available items for donation and retrieval.
-- **donate.html**: Page for users to donate their items.
-- **courier-signup.html**: Page for couriers to sign up for the platform.
-- **contact.html**: Contact page for the platform.
+## Ready to share your site?
 
-## Screenshots
+Add these meta tags for SEO and social sharing between your page `<head></head>` tags, changing the values for your site:
 
-![image](https://github.com/user-attachments/assets/df9f7479-1860-474f-a903-429d8520d85c)
+```
+<link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+<meta name="description" content="A simple website, built with Glitch. Remix it to get your own."/>
+<meta name="robots" content="index,follow" />
+<meta property="og:title" content="Hello World!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+<meta property="og:description" content="A simple website, built with Glitch. Remix it to get your own."/>
+<meta property="og:image" content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"/>
+<meta name="twitter:card" content="summary" />
+```
 
-![image](https://github.com/user-attachments/assets/6a5ce0d8-c702-4ed9-9942-ddbb55099899)
+![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
-![image](https://github.com/user-attachments/assets/9440e059-1ee4-4e2a-8242-3589bff31547)
+## You built this with Glitch!
 
-![image](https://github.com/user-attachments/assets/230a2fee-17ea-4590-a949-d53ba6b80d49)
+[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
 
-
-
-
-
-## Contributing
-
-Feel free to open issues or submit pull requests if you'd like to contribute.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
+- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
