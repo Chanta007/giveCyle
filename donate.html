@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Post a Donation - GiveCycle</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <a href="/">GiveCycle</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/how-it-works.html">How It Works</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="/browse.html">Browse</a></li>
+        <li><a href="/donate.html">Donate</a></li>
+        <li><a href="/courier-signup.html">Courier Signup</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/login.html">Sign In</a></li>
+      </ul>
+    </nav>
+    <!-- Main Content -->
+    <section class="donate">
+      <h1>Post a Donation</h1>
+      <form action="/submit-donation" method="post" enctype="multipart/form-data">
+        <label for="item-name">Item Name:</label>
+        <input type="text" id="item-name" name="item_name" required />
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+          <option value="clothing">Clothing</option>
+          <option value="food">Food</option>
+          <option value="household">Household Goods</option>
+          <!-- Add more categories as needed -->
+        </select>
+
+        <label for="image">Upload Images:</label>
+        <input type="file" id="image" name="image" accept="image/*" multiple />
+
+        <label for="pickup-time">Preferred Pickup Time:</label>
+        <input type="datetime-local" id="pickup-time" name="pickup_time" />
+
+        <button type="submit" class="btn btn-primary">Submit Donation</button>
+      </form>
+    </section>
+
+    <!-- Include JavaScript files -->
+    <script src="/script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E8B57; /* SeaGreen */
+    padding: 1em;
+}
+
+nav .logo a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('{{ url_for('static', filename='images/hero.jpg') }}');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5em 1em;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.cta-buttons .btn {
+    padding: 0.75em 1.5em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.btn-primary {
+    background-color: #FFD700; /* Gold */
+    color: #000;
+}
+
+.btn-secondary {
+    background-color: #FF8C00; /* DarkOrange */
+    color: #fff;
+}
+
+.btn-tertiary {
+    background-color: #1E90FF; /* DodgerBlue */
+    color: #fff;
+}
+/* Items List */
+.items-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  flex: 1 1 200px;
+  margin: 1em;
+  padding: 1em;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.item img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.item-content {
+  margin-left: 1em;
+}
+
+.item h3 {
+  margin: 0;
+}
+
+.item p {
+  margin: 0.5em 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.item .btn {
+  margin-top: 0.5em;
+}

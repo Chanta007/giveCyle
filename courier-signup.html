@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Courier Signup - GiveCycle</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <a href="/">GiveCycle</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/how-it-works.html">How It Works</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="/browse.html">Browse</a></li>
+        <li><a href="/donate.html">Donate</a></li>
+        <li><a href="/courier-signup.html">Courier Signup</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/login.html">Sign In</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="courier-signup">
+      <h1>Join as Courier</h1>
+      <form action="/register-courier" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="vehicle">Vehicle Type:</label>
+        <select id="vehicle" name="vehicle">
+          <option value="bike">Bike</option>
+          <option value="scooter">Scooter</option>
+          <!-- Add more options if needed -->
+        </select>
+
+        <label for="availability">Availability:</label>
+        <input type="text" id="availability" name="availability" required />
+
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+      </form>
+    </section>
+
+    <!-- Include JavaScript files -->
+    <script src="/script.js" defer></script>
+  </body>
+</html>
