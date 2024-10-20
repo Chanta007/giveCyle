@@ -68,6 +68,18 @@ https://rambunctious-fuschia-flyingfish.glitch.me
 
 ![image](https://github.com/user-attachments/assets/230a2fee-17ea-4590-a949-d53ba6b80d49)
 
+![image](https://github.com/user-attachments/assets/7885ad21-64a0-4d65-8056-8a0cba46a21a)
+
+![image](https://github.com/user-attachments/assets/2b610008-5897-46e2-af2e-b1816e831faa)
+
+![image](https://github.com/user-attachments/assets/70ba9bcf-56d9-4542-849f-c64e57b15a38)
+
+![image](https://github.com/user-attachments/assets/c0e2ae05-cec7-4d47-b95c-10f9a937d7a3)
+
+
+
+
+
 
 
 
